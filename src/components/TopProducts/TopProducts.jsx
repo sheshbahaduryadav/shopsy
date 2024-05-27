@@ -33,7 +33,7 @@ const TopProducts = ({ handleOrderPopup }) => {
       <div className="container">
         {/* Header section */}
         <div className="text-left mb-24">
-          <p data-aos="fade-up" className="text-sm text-primary">
+          <p data-aos="fade-up" className="text-sm text-color">
             Top Rated Products for you
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
@@ -73,7 +73,7 @@ const TopProducts = ({ handleOrderPopup }) => {
                   {data.description}
                 </p>
                 <button
-                  className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
+                  className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-color"
                   onClick={handleOrderPopup}
                 >
                   Order Now
