@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
           {/* image section */}
-          <div data-aos="zoom-in">
+          <div data-aos="zoom-in" >
             <img
               src={BannerImg}
               alt=""
